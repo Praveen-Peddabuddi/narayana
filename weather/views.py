@@ -3,7 +3,10 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.decorators import login_required
 import json
-import urllib.request
+import urllib.request 
+
+
+# narayana's programm
 
 @login_required(login_url='login')
 def homePage(request):
